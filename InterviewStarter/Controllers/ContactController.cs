@@ -7,6 +7,7 @@ namespace InterviewStarter.Controllers
     [ApiController]
     public class ContactController : Controller
     {
+
         public ContactController() { }
 
         [HttpGet("{id}")]

@@ -1,0 +1,5 @@
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.AssemblyInfoInputs.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.AssemblyInfo.cs
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.csproj.CoreCompileInputs.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.csproj.AssemblyReference.cache
