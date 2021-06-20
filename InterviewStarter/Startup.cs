@@ -2,6 +2,7 @@
 using InterviewStarter.Data.DataProviders;
 using InterviewStarter.Data.Interfaces;
 using InterviewStarter.Data.Models;
+using InterviewStarter.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -22,14 +23,14 @@ namespace InterviewStarter
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc()
-                    .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc();
 
             services.AddMvcCore()
                 .AddAuthorization()
-                .AddJsonFormatters();
+                 .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
-            services.AddSingleton<IDataProvider<Contact>, ContactDataProvider>();
+            services.AddSingleton<ContactDataProvider>();
+            services.AddScoped<ContactRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +46,13 @@ namespace InterviewStarter
             //}
 
             //app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseStaticFiles();
+            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapDefaultControllerRoute();
+            });
         }
     }
 }

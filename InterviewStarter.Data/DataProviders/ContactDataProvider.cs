@@ -2,6 +2,7 @@
 using InterviewStarter.Data.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace InterviewStarter.Data.DataProviders
@@ -26,13 +27,12 @@ namespace InterviewStarter.Data.DataProviders
 
         public Task<Contact> Get(int id) 
         {
-            return Task.FromResult(data.FirstOrDefault(c => c.Id == id));
+            return Task.FromResult(ValidateAddress(ValidateAddress(data.FirstOrDefault(c => c.Id == id))));
         }
 
         public Task<IEnumerable<Contact>> Get()
         {
-            return Task.FromResult(data);
-
+            return Task.FromResult(ValidateAddresses(data.ToList()));
         }
 
         public Task<bool> Put(Contact obj)
@@ -41,6 +41,19 @@ namespace InterviewStarter.Data.DataProviders
             newData.Add(obj);
             data = newData;
             return Task.FromResult(true);
+        }
+
+        private IEnumerable<Contact> ValidateAddresses(List<Contact> contacts)
+        {
+            return contacts.Select(contact => ValidateAddress(contact));
+        }
+        private Contact ValidateAddress(Contact contact)
+        {
+            if (contact is null)
+                return null;
+
+            contact.Address = Regex.Replace(contact.Address, @"[^a-zA-Z0-9_.\s]+", "", RegexOptions.Compiled);
+            return contact;
         }
     }
 }
