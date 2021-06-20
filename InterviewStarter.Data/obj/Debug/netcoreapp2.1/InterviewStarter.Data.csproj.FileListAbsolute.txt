@@ -6,4 +6,3 @@ C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp2.1\InterviewStarter.Data.csproj.CoreCompileInputs.cache
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp2.1\InterviewStarter.Data.dll
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp2.1\InterviewStarter.Data.pdb
-C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp2.1\InterviewStarter.Data.csproj.AssemblyReference.cache

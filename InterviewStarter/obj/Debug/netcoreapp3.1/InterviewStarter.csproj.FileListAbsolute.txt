@@ -1,8 +1,3 @@
-C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.AssemblyInfoInputs.cache
-C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.AssemblyInfo.cs
-C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.csproj.CoreCompileInputs.cache
-C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.csproj.AssemblyReference.cache
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\bin\Debug\netcoreapp3.1\InterviewStarter.exe
@@ -13,6 +8,11 @@ C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\bin\Debug
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\bin\Debug\netcoreapp3.1\InterviewStarter.pdb
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\bin\Debug\netcoreapp3.1\InterviewStarter.Data.dll
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\bin\Debug\netcoreapp3.1\InterviewStarter.Data.pdb
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.csproj.AssemblyReference.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.AssemblyInfoInputs.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.AssemblyInfo.cs
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.csproj.CoreCompileInputs.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\InterviewStarter.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\staticwebassets\InterviewStarter.StaticWebAssets.Manifest.cache
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\staticwebassets\InterviewStarter.StaticWebAssets.xml
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter\obj\Debug\netcoreapp3.1\scopedcss\bundle\InterviewStarter.styles.css

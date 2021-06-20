@@ -1,0 +1,9 @@
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\bin\Debug\netcoreapp3.1\InterviewStarter.Data.deps.json
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\bin\Debug\netcoreapp3.1\InterviewStarter.Data.dll
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\bin\Debug\netcoreapp3.1\InterviewStarter.Data.pdb
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp3.1\InterviewStarter.Data.csproj.AssemblyReference.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp3.1\InterviewStarter.Data.AssemblyInfoInputs.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp3.1\InterviewStarter.Data.AssemblyInfo.cs
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp3.1\InterviewStarter.Data.csproj.CoreCompileInputs.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp3.1\InterviewStarter.Data.dll
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewStarter.Data\obj\Debug\netcoreapp3.1\InterviewStarter.Data.pdb
