@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using InterviewStarter.Data.Interfaces;
 
 namespace InterviewStarter.Data.Models
 {
-    public class Contact
+    public class Contact : IIdentifiable
     {
         public int Id { get; set; }
         public string Name { get; set; }

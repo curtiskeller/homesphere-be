@@ -16,3 +16,4 @@ C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewTest.Test\obj\Deb
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewTest.Test\obj\Debug\netcoreapp2.1\InterviewTest.Test.dll
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewTest.Test\obj\Debug\netcoreapp2.1\InterviewTest.Test.pdb
 C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewTest.Test\obj\Debug\netcoreapp2.1\InterviewTest.Test.genruntimeconfig.cache
+C:\Users\Curtis\Documents\HomeSphere\InterviewStarter\InterviewTest.Test\obj\Debug\netcoreapp2.1\InterviewTest.Test.csproj.AssemblyReference.cache
