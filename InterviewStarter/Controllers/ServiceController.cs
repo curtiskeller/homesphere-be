@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace InterviewStarterControllers
 {
-    public abstract class ServiceController<T, TFactory> : Controller 
+    public abstract class ServiceController<T, TRepository> : Controller 
         where T : IIdentifiable
-        where TFactory : Repository<T>
+        where TRepository : Repository<T>
     {
-        protected readonly TFactory factory;
-        public ServiceController(TFactory factory)
+        protected readonly TRepository Repository;
+        public ServiceController(TRepository repository)
         {
-            this.factory = factory;      
+            this.Repository = repository;      
         }
 
         [HttpGet]
         public virtual async Task<IEnumerable<T>> Get()
         {
-            return await factory.Get();
+            return await Repository.Get();
         }
 
         [HttpGet("{id}")]
         public virtual async Task<T> Get(int id)
         {
-            return await factory.Get(id);
+            return await Repository.Get(id);
         }
 
         [HttpPut("")]
         public virtual async Task<bool> Put([FromBody] T obj)
         {
-            return await factory.Put(obj);
+            return await Repository.Put(obj);
         }
     }
 }

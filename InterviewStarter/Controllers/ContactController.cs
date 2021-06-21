@@ -11,20 +11,20 @@ namespace InterviewStarter.Controllers
     [ApiController]
     public class ContactController : ServiceController<Contact, ContactRepository>
     {
-        public ContactController(ContactRepository factory) : base(factory)
+        public ContactController(ContactRepository repository) : base(repository)
         {
         }
 
         [HttpGet("validatedContacts")]
         public async Task<IEnumerable<Contact>> GetValidated()
         {
-            return factory.ValidateAddresses(await factory.Get());
+            return Repository.ValidateAddresses(await Repository.Get());
         }
 
         [HttpGet("validatedContact/{id}")]
         public async Task<Contact> GetSingleValidated(int id)
         {
-            return factory.ValidateAddress(await factory.Get(id));
+            return Repository.ValidateAddress(await Repository.Get(id));
         }
 
     }
