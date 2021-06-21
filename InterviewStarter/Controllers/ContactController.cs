@@ -14,5 +14,18 @@ namespace InterviewStarter.Controllers
         public ContactController(ContactRepository factory) : base(factory)
         {
         }
+
+        [HttpGet("validatedContacts")]
+        public async Task<IEnumerable<Contact>> GetValidated()
+        {
+            return factory.ValidateAddresses(await factory.Get());
+        }
+
+        [HttpGet("validatedContact/{id}")]
+        public async Task<Contact> GetSingleValidated(int id)
+        {
+            return factory.ValidateAddress(await factory.Get(id));
+        }
+
     }
 }

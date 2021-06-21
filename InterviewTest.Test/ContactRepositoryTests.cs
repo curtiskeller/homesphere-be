@@ -15,7 +15,7 @@ namespace InterviewTest.Test
         [TestInitialize]
         public void testInit()
         {
-            repo = new ContactRepository(new ContactDataProvider());
+            repo = new ContactRepository(new LocalDataProvider());
         }
 
         [TestMethod]
@@ -25,7 +25,7 @@ namespace InterviewTest.Test
 
             Assert.AreEqual(1, contact.Id);
             Assert.AreEqual("Ada Lovelace", contact.Name);
-            Assert.AreEqual("123 Babbage Court London England", contact.Address);
+            Assert.AreEqual("123 Babbage Court*, London, England%#", contact.Address);
         }
 
         [TestMethod]

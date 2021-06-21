@@ -29,7 +29,7 @@ namespace InterviewStarter
                 .AddAuthorization()
                  .SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
-            services.AddSingleton<ContactDataProvider>();
+            services.AddSingleton<LocalDataProvider>();
             services.AddScoped<ContactRepository>();
         }
 

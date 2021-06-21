@@ -6,21 +6,21 @@ namespace InterviewStarter.Data.Repositories
 {
     public abstract class Repository<T> : IRepository<T> where T : IIdentifiable
     {
-        private IDataProvider<T> dataProvider;
+        private IDataProvider dataProvider;
 
-        protected Repository(IDataProvider<T> dataProvider)
+        protected Repository(IDataProvider dataProvider)
         {
             this.dataProvider = dataProvider;
         }
 
         public Task<T> Get(int id)
         {
-            return dataProvider.Get(id);
+            return dataProvider.Get<T>(id);
         }
 
         public Task<IEnumerable<T>> Get()
         {
-            return dataProvider.Get();
+            return dataProvider.Get<T>();
         }
 
         public Task<bool> Put(T obj)
